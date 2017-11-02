@@ -9,12 +9,12 @@ a {
 .nav {	
 	display: inline-block;
 	position: fixed;
-    left: -38%;
+    left: -48%;
     width: 60%;
-	top: 12%;
-	height: 70vh;
+	top: 3.5%;
+	height: 90%;
 	padding: 0;
-	font-size: 15px;
+	font-size: 1em;
 	border-radius: 50%;
 }
 
@@ -26,17 +26,18 @@ a {
 .sidemenu {
 	padding: 1em 0 0 0;
 	position: relative;
-	margin-top: 14%; 
+	margin-top: 16%; 
 }
 
 .item {
 	position: relative;
 	left: -45px;
-	padding: 5px 5px 5px 5px;
+	padding: 1%;
 	color: #000;
 }
 
-.item:hover {
+
+.item span:hover {
 	color: #FFF;
 }
 
@@ -60,7 +61,7 @@ a {
 /* hover state */
 .nav:hover > ul a li {
 	position: relative;
-	left: 65%;
+	left: 80%;
 }
 
 .nav:hover {
