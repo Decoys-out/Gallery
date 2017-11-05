@@ -111,12 +111,12 @@ height:100%;
 .logo {
     width: 300px;
     height: 70px;
-    + margin: 150px auto;
+    margin: 150px auto;
     font-size: 50px;
     text-shadow: -1px;
     text-align: center;
     color: azure;
-    margin-top: 70px;
+    margin-top: 20px;
 
 }
 
