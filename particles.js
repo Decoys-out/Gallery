@@ -49,7 +49,7 @@ particlesJS("particles-js", {
         },
         "move": {
             "enable": true,
-            "speed": 1.6,
+            "speed": 4,
             "direction": "none",
             "random": false,
             "straight": false,
@@ -66,8 +66,8 @@ particlesJS("particles-js", {
         "detect_on": "canvas",
         "events": {
             "onhover": {
-                "enable": false,
-                "mode": "repulse"
+                "enable": true,
+                "mode": "grab"
             },
             "onclick": {
                 "enable": false,
@@ -77,7 +77,7 @@ particlesJS("particles-js", {
         },
         "modes": {
             "grab": {
-                "distance": 400,
+                "distance": 80,
                 "line_linked": {
                     "opacity": 1
                 }
