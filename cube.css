@@ -9,11 +9,7 @@
     
 }
 
-.center{
-    margin: 0 auto;
-    padding-top: 12%;
-    padding-left: 12%;
-}
+
 
 /* 3D Cube */
 .space3d {
@@ -107,31 +103,31 @@
 }
 
 ._3dface--front {
-  background: url(https://2.bp.blogspot.com/-JxKfUObT4L8/UYYaRhRNJmI/AAAAAAAAAUY/243IlIOKj2c/s320/brahama.jpg);
+  background: url(background.jpg);
   background-size: 100%;
 }
 
 ._3dface--left {
-  background: url(https://4.bp.blogspot.com/-HGFGdCGFTkw/UXVq6PNmS4I/AAAAAAAAAUE/hBNmVCOVlu4/s400/durga+wm.jpg);
+  background: url(autho1/4.jpg);
   background-size: auto 100%;
 }
 
 ._3dface--right {
-  background: url(https://2.bp.blogspot.com/-yrnBD8wJ-g0/UNRtPF8pR7I/AAAAAAAAATE/YSpLvqTNyoQ/s320/A+P+J+abdul+kalam_+swm+.jpg);
+  background: url(autho1/7.jpg);
   background-size: auto 100%;
 }
 
 ._3dface--top {
-  background: url(https://3.bp.blogspot.com/-mySu8dy4ux4/ULiVKS4YBbI/AAAAAAAAAR0/vBMi_4dAPDE/s400/rajiv+dixit+s.jpg);
+  background: url(autho1/1.jpg);
   background-size: auto 100%;
 }
 
 ._3dface--bottom {
-  background: url(https://2.bp.blogspot.com/-B9QWFtc9bVY/UHFs7y9GqkI/AAAAAAAAARI/YLDkoHYr3g4/s400/Gau+wm.jpg);
+  background: url(autho1/5.jpg);
   background-size: auto 100%;
 }
 
 ._3dface--back {
-  background: url(https://3.bp.blogspot.com/-ofufG97PpiU/UBzXu-1AisI/AAAAAAAAAP0/iDnhOh-vrb8/s400/shiv+ji.jpg);
+  background: url(autho1/3.jpg);
   background-size: auto 100%;
 }
