@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+   <link href="cube.css" rel="stylesheet">
+    </link>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -17,10 +19,42 @@
 </head>
 
 <body>
-    <nav class="nav">
+  <div class="cubewaladiv">
+   <!-- CUBE !!!!  -->
+
+<!-- CONTROLS -->
+      
+    <input type="radio" checked id="radio-front" name="select-face"/>    
+    <input type="radio" id="radio-left" name="select-face"/>
+    <input type="radio" id="radio-right" name="select-face"/>
+    <input type="radio" id="radio-top" name="select-face"/>
+    <input type="radio" id="radio-bottom" name="select-face"/>
+    <input type="radio" id="radio-back" name="select-face"/>
+
+<div class="separator"></div>
+
+
+<div class="space3d">
+        
+    
+    <div class="_3dbox">
+      <div class="_3dface _3dface--front"></div>
+      <div class="_3dface _3dface--top"></div>
+      <div class="_3dface _3dface--bottom"></div>
+      <div class="_3dface _3dface--left"></div>
+      <div class="_3dface _3dface--right"></div>
+      <div class="_3dface _3dface--back"></div>
+    </div>
+    
+</div>
+
+<div class="separator"></div>
+<br><br></div>
+<!--  CUBE END -->
+        <nav class="nav">
 <ul class="sidemenu" style="font-family: 'Merienda One', cursive;";>
 	<a href="#" class="side"><li class="item"><span>Home</span></li></a>
-	<a href="#" class="side"><li class="item"><span>Artistic_stuff</span></li></a>
+	<a href="#" class="side"><li class="item"><span>Art</span></li></a>
 	<a href="#" class="side"><li class="item"><span>Artists</span></li></a>
 	<a href="#" class="side"><li class="item"><span>Random info</span></li></a>
 </ul>
@@ -36,10 +70,6 @@
         <div class="loader-section section-left"></div>
     </div>
     <div id="particles-js"></div>
-    <div id="second-1"></div>
-    <div id="second-2"></div>
-    <div id="second-3"></div>
-    <div id="second-4"></div>
 </body>
 
 </html>
