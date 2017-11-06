@@ -7,6 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
    
     <title>Document</title>
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -19,25 +24,35 @@
 </ul>
 </nav>
     <div class="preload logo">
-        Art-<span style="color:darkturquoise">Gallery</span>
+        Art-<span style="color:darkturquoise">Gallery</span><br>
+       <span class=element></span>
     </div>
+     
     <div id="load-screen" >
         <div id="loading"></div>
         <div class="loader-section section-right"></div>
         <div class="loader-section section-left"></div>
     </div>
     <div id="particles-js"></div>
-
 </body>
 
 </html>
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
+  <script src="typed.js"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="particles.js"></script>
 <script src=script.js></script>
+<script>
+   $('.element').typed({
+   strings: ['This Site is Made by: <i>Harshit Luthra</i>', 'This Site is Made by:  <strong>Mohit Sharma</strong>', 'This Site is Made by:  Harshita Aggu'],
+    typeSpeed: 0,
+    backSpeed: 0,
+    smartBackspace: true, // this is a default
+    loop: true
+  });
+    
+    
+    </script>
+
 <link rel="stylesheet" href="preloader.css">
 <link rel="stylesheet" href="particle.css">
  <link rel="stylesheet" href="welcomestyle.css"> 

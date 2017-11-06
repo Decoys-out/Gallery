@@ -177,12 +177,17 @@ height:100%;
     transition: all 0.3s 1s ease-out
 }
 
+.element{
+    text-align: center;
+    font: cursive;
+    font-size: 50px;
+    top: 50;
+    transform: translate(0,-50%);
+}
 .preload {
     width: 100%;
-
-    
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1001;
+    z-index: 1000;
 }
