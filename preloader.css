@@ -87,7 +87,11 @@ height:100%;
         /* Firefox 16+, IE 10+, Opera */
     }
 }
-
+.typed-words{position: relative;
+    padding-top: 500px;
+    font-size: 20px;
+    font-family: cursive;
+}
 @keyframes spin {
     0% {
         -webkit-transform: rotate(0deg);
@@ -177,12 +181,12 @@ height:100%;
     transition: all 0.3s 1s ease-out
 }
 
-.element{
+.preload.element{
     text-align: center;
     font: cursive;
-    font-size: 50px;
+    font-size: -50px;
     top: 50;
-    transform: translate(0,-50%);
+    transform: translate(0,50%);
 }
 .preload {
     width: 100%;
