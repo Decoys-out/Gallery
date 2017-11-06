@@ -4,7 +4,7 @@ $(document).ready(function() {
     $('#load-screen').addClass('loaded');
 });
      $('.element').typed({
-   strings: ['<i>Harshit Luthra</i>','<strong>Mohit Sharma</strong>', 'Harshita Aggu'],
+   strings: ['<i>Harshit Luthra</i>','<strong>Gaganjot Singh</strong>', 'Harshita Aggarwal'],
     typeSpeed: 0,
     backSpeed: 40,
          startDelay:2000,
