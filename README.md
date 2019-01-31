@@ -1,3 +1,3 @@
 # Gallery
 
-__Humara CST ka Project__
+__CST Project__
