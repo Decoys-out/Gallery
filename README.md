@@ -1,3 +1,3 @@
 # Gallery
 
-__CST Project__
+__CST Project__-CHITKARA UNIVERSITY
